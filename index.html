@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assets Square | Real Estate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <div class="navbar">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <div class="assets">assets</div>
+      <div class="square">square</div>
+    </div>
+
+    <!-- MENU -->
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+  </div>
+</header>
+
+<body>
+<!--HERO section-->
+<section class="hero-slider rounded">
+  <div class="slides active" style="background-image:url('images/city1.png')">
+    <div class="overlay">
+      <h1>Invest Smartly in Bangalore’s Fastest Growing Locations</h1>
+      <p>Premium plotted developments with high ROI</p>
+    </div>
+  </div>
+
+  <div class="slides" style="background-image:url('images/city2.png')">
+    <div class="overlay">
+      <h1>Secure Your Future with Trusted Plots</h1>
+      <p>Clear titles • Prime locations • Best pricing</p>
+    </div>
+  </div>
+
+  <div class="slides" style="background-image:url('images/city3.png')">
+    <div class="overlay">
+      <h1>Premium Plots Near Nandi Hills</h1>
+      <p>Perfect for investment & lifestyle</p>
+    </div>
+  </div>
+</section>
+
+<section class="approvals-section">
+  <div class="approvals-wrapper">
+
+    <h2 class="section-title">OUR PROJECT APPROVALS</h2>
+    <p class="section-subtitle">
+      All projects are legally verified and approved by relevant authorities
+    </p>
+
+    <div class="approvals-grid">
+
+      <div class="approval-card">Individual E-Khata</div>
+      <div class="approval-card">BMRDA Approved</div>
+      <div class="approval-card">BMICAPA Approved</div>
+      <div class="approval-card">BBMP Approved</div>
+      <div class="approval-card">BIAAPA Approved</div>
+      <div class="approval-card">RERA Registered</div>
+      <div class="approval-card">CUDA Approved</div>
+      <div class="approval-card">DC Conversion</div>
+      <div class="approval-card">CMC Approved</div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="projects-section">
+  <div class="projects-wrapper">
+
+    <h2 class="section-title">Our Projects</h2>
+    <p class="section-subtitle">
+      Explore our upcoming, ongoing and completed developments
+    </p>
+
+    <!-- Tabs -->
+    <div class="project-tabs">
+      <button class="tab active" onclick="showProjects('upcoming', this)">Upcoming</button>
+      <button class="tab" onclick="showProjects('ongoing', this)">Ongoing</button>
+      <button class="tab" onclick="showProjects('completed', this)">Completed</button>
+    </div>
+
+    <!-- UPCOMING PROJECTS -->
+    <div class="projects-grid active" id="upcoming">
+      <div class="project-card">
+        <img src="images/up1.jpeg">
+        <h3>Assets Gauribidanur Enclave</h3>
+        <p>Premium plotted development near Gauribidanur</p>
+        <a href="project-nandi.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/up2.jpeg">
+        <h3>Assets Mysore Road Heights</h3>
+        <p>High appreciation plots in growth corridor</p>
+        <a href="project-northgate.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/up3.jpeg">
+        <h3>Assets Nelamangala Gateway</h3>
+        <p>Future-ready layout with clear approvals</p>
+        <a href="project-greenvalley.html">View Project →</a>
+      </div>
+    </div>
+
+    <!-- ONGOING PROJECTS -->
+    <div class="projects-grid" id="ongoing">
+      <div class="project-card">
+        <img src="images/city1.png">
+        <h3>Assets Gauribidanur Enclave</h3>
+        <p>Fast selling plots with infrastructure ready</p>
+        <a href="project-gauri.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/city2.png">
+        <h3>Assets Nelamangala Gateway</h3>
+        <p>Premium plots near upcoming developments</p>
+        <a href="project-lakefront.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/city3.png">
+        <h3>Assets Mysore Road Heights</h3>
+        <p>Well-planned layout with wide roads</p>
+        <a href="project-prime.html">View Project →</a>
+      </div>
+    </div>
+
+    <!-- COMPLETED PROJECTS -->
+    <div class="projects-grid" id="completed">
+      <div class="project-card">
+        <img src="images/city1.png">
+        <h3>Assets Lake View</h3>
+        <p>Successfully delivered plotted community</p>
+        <a href="project-lakeview.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/city2.png">
+        <h3>Assets City Edge</h3>
+        <p>Completed project with happy customers</p>
+        <a href="project-cityedge.html">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/city3.png">
+        <h3>Assets Green Meadows</h3>
+        <p>Delivered with all approvals & amenities</p>
+        <a href="project-meadows.html">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="why-choose-us">
+  <div class="why-wrapper">
+
+    <h2 class="section-title">Why Choose Assets Square ?</h2>
+    <p class="section-subtitle">
+      Trusted real estate partner delivering value, transparency and growth
+    </p>
+
+    <div class="why-grid">
+
+      <div class="why-card animate">
+        <h3>Legally Verified Projects</h3>
+        <p>
+          All our projects come with clear titles and government-approved
+          documentation ensuring complete peace of mind.
+        </p>
+      </div>
+
+      <div class="why-card animate">
+        <h3>Prime Growth Locations</h3>
+        <p>
+          Strategically selected locations near highways, railway stations
+          and upcoming infrastructure hubs.
+        </p>
+      </div>
+
+      <div class="why-card animate">
+        <h3>High ROI Potential</h3>
+        <p>
+          Our developments are planned in high-appreciation corridors
+          ensuring strong long-term investment returns.
+        </p>
+      </div>
+
+      <div class="why-card animate">
+        <h3>Transparent Pricing</h3>
+        <p>
+          No hidden charges. Clear pricing structure with honest guidance
+          at every stage of your investment.
+        </p>
+      </div>
+
+      <div class="why-card animate">
+        <h3>Customer-Centric Approach</h3>
+        <p>
+          From site visits to registration, we assist customers with
+          end-to-end professional support.
+        </p>
+      </div>
+
+      <div class="why-card animate">
+        <h3>Trusted Brand</h3>
+        <p>
+          Assets Square is built on trust, credibility and long-term
+          relationships with happy customers.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-wrapper">
+
+    <div class="cta-content animate">
+      <h2>Ready to Invest in the Right Location?</h2>
+      <p>
+        Get expert guidance, verified projects and high-ROI investment
+        opportunities across Bangalore’s fastest growing corridors.
+      </p>
+
+      <div class="cta-buttons">
+        <a href="tel:8660447007" class="cta-btn primary">
+          📞 Call Now
+        </a>
+        <a href="https://wa.me/918660447007" target="_blank" class="cta-btn secondary">
+          💬 WhatsApp Us
+        </a>
+      </div>
+    </div>
+
+    <div class="cta-cards">
+      <div class="cta-card animate">
+        <h3>✔ Clear Titles</h3>
+        <p>Government-approved layouts with complete legal clarity</p>
+      </div>
+
+      <div class="cta-card animate">
+        <h3>✔ Prime Locations</h3>
+        <p>Near highways, railway stations & future growth hubs</p>
+      </div>
+
+      <div class="cta-card animate">
+        <h3>✔ End-to-End Support</h3>
+        <p>From site visit to registration, we handle everything</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="trust-numbers">
+  <div class="trust-wrapper">
+
+    <h2 class="section-title">Trusted by Investors Across Bangalore</h2>
+    <p class="section-subtitle">
+      Our numbers speak for our credibility, transparency and performance
+    </p>
+
+    <div class="trust-grid">
+
+      <div class="trust-card animate">
+        <h3><span class="counter" data-target="10">0</span>+</h3>
+        <p>Years of Experience</p>
+      </div>
+
+      <div class="trust-card animate">
+        <h3><span class="counter" data-target="15">0</span>+</h3>
+        <p>Projects Delivered</p>
+      </div>
+
+      <div class="trust-card animate">
+        <h3><span class="counter" data-target="1000">0</span>+</h3>
+        <p>Happy Customers</p>
+      </div>
+
+      <div class="trust-card animate">
+        <h3><span class="counter" data-target="100">0</span>%</h3>
+        <p>Clear Title Projects</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="testimonials-section">
+  <div class="testimonials-wrapper">
+
+    <h2 class="section-title">What Our Clients Say</h2>
+    <p class="section-subtitle">
+      Trusted by investors and families across Bangalore
+    </p>
+
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          “Assets Square guided me with complete transparency. 
+          From location selection to documentation, everything was smooth and professional.”
+        </p>
+        <h4>Ramesh Kumar</h4>
+        <span>Bangalore</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          “I invested near Nelamangala after consulting Assets Square. 
+          Clear approvals and honest guidance gave me full confidence.”
+        </p>
+        <h4>Suresh N</h4>
+        <span>Yelahanka</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          “Very reliable team. They explained future growth and ROI clearly. 
+          Happy with my investment decision.”
+        </p>
+        <h4>Anita Sharma</h4>
+        <span>Bangalore</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-wrapper">
+
+    <!-- BRAND -->
+    <div class="footer-col">
+      <div class="footer-logo">
+        <span class="assets">assets</span><span class="square">square</span>
+      </div>
+      <p>
+        Assets Square is a trusted real estate brand delivering
+        premium plotted developments across Bangalore’s fastest
+        growing corridors with complete legal transparency.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- PROJECT LOCATIONS -->
+    <div class="footer-col">
+      <h4>Project Locations</h4>
+      <ul>
+        <li>Nelamangala</li>
+        <li>Mysore Road</li>
+        <li>Gauribidanur</li>
+        <li>Nandi Hills Surroundings</li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p>📍 3rd Floor, 221, 100ft, Outer Ring Rd, 2nd Block, Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
+      <p>📞 <a href="tel:8660447007">+91 86604 47007</a></p>
+      <p>✉️ info@assetssquare.com</p>
+
+      <div class="footer-cta">
+        <a href="contact.html">Book Site Visit</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <p>© 2026 Assets Square. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+<script>
+  let slides = document.querySelectorAll(".slides");
+  let index = 0;
+
+  setInterval(() => {
+    slides[index].classList.remove("active");
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("active");
+  }, 4000);
+</script>
+
+<script>
+function showProjects(id, btn) {
+  document.querySelectorAll('.projects-grid').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+
+<script>
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+
+document.querySelectorAll(".animate").forEach(el => observer.observe(el));
+</script>
+
+<script>
+const counters = document.querySelectorAll('.counter');
+let counterStarted = false;
+
+function startCounters() {
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    let count = 0;
+    const speed = target / 80;
+
+    const updateCount = () => {
+      if (count < target) {
+        count += speed;
+        counter.innerText = Math.ceil(count);
+        requestAnimationFrame(updateCount);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    updateCount();
+  });
+}
+
+const trustObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && !counterStarted) {
+      counterStarted = true;
+      startCounters();
+    }
+  });
+}, { threshold: 0.4 });
+
+trustObserver.observe(document.querySelector('.trust-numbers'));
+</script>
+
+</html>
